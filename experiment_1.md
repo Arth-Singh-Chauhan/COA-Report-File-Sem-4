@@ -56,7 +56,9 @@ Simulate each circuit:
 Verify correctness by comparing outputs with expected truth tables.
 
 **Circuit Diagrams**:
-
+![Half Adder](images/1a.png)
+![Half Adder](images/1b.png)
+![Half Adder](images/1c.png)
 
 
 **Truth Tables**:
@@ -83,7 +85,7 @@ Verify correctness by comparing outputs with expected truth tables.
 
 **Observations**:
 
-• The half adder correctly computes the sum and carry for all input combinations.
+• The half adder correctly computes the sum and carry for all input combinations.\n
 • The full adder produces accurate results for all 8 input combinations, including carry-in.
 • The 4-bit adders correctly add two 4-bit numbers, with the final carry-out indicating overflow beyond 4 bits.
 • Circuits built with universal gates require more gates but demonstrate functional equivalence.
