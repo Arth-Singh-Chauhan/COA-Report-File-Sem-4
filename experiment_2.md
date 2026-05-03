@@ -83,37 +83,37 @@ Truth Table:
 
 *8×3 Encoder*:
 
--Open Logisim and create a new project.
+- Open Logisim and create a new project.
 
--Place 8 input pins labeled D₀ through D₇.
+- Place 8 input pins labeled D₀ through D₇.
 
--Place 3 output pins labeled A, B, and C.
+- Place 3 output pins labeled A, B, and C.
 
--Connect inputs to OR gates according to the Boolean expressions.
+- Connect inputs to OR gates according to the Boolean expressions.
 
--Wire OR gate outputs to the corresponding output pins.
+- Wire OR gate outputs to the corresponding output pins.
 
--Simulate by setting one input HIGH at a time and verifying outputs.
+- Simulate by setting one input HIGH at a time and verifying outputs.
 
 *8×1 Multiplexer*:
 
--Create a new circuit in the same project.
+- Create a new circuit in the same project.
 
--Place 8 data input pins (I₀–I₇) and 3 select input pins (S₁, S₂, S₃).
+- Place 8 data input pins (I₀–I₇) and 3 select input pins (S₁, S₂, S₃).
 
--Add NOT gates to generate complements of select lines.
+- Add NOT gates to generate complements of select lines.
 
--Place 8 AND gates (4-input each) — one for each data input.
+- Place 8 AND gates (4-input each) — one for each data input.
 
--Connect each AND gate to the appropriate data input and select line combination.
+- Connect each AND gate to the appropriate data input and select line combination.
 
--Connect all AND gate outputs to a single OR gate
+- Connect all AND gate outputs to a single OR gate
 
--Wire the OR gate output to the output pin Y.
+- Wire the OR gate output to the output pin Y.
 
--Simulate by varying select lines and verifying output matches the selected input.
+- Simulate by varying select lines and verifying output matches the selected input.
 
-**Circuit Diagrams**:
+*Circuit Diagrams**:
 
 *Encoder (8×3)*
 
