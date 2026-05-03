@@ -168,6 +168,7 @@ int main() {
 ![Half Adder](images/4.1g.png)
 
 
+
 *Part B*
 
 ![Half Adder](images/4.2a.png)
