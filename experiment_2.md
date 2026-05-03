@@ -55,15 +55,15 @@ where $$mi$$ is the minterm corresponding to the select combination.
 
 Truth Table:
 
-S2	S1	S0	Output (Y)
-0	0	0	I0
-0	0	1	I1
-0	1	0	I2
-0	1	1	I3
-1	0	0	I4
-1	0	1	I5
-1	1	0	I6
-1	1	1	I7
+| S2 | S1 | S0 | Output (Y) |
+| 0	| 0	| 0	| I0 |
+| 0	| 0	| 1	| I1 |
+| 0	| 1	| 0	| I2 |
+| 0	| 1	| 1	| I3 |
+| 1 | 0	| 0	| I4 |
+| 1	| 0	| 1	| I5 |
+| 1	| 1	| 0	| I6 |
+| 1	| 1	| 1	| I7 |
 
 **Components Required**
 
@@ -79,30 +79,47 @@ S2	S1	S0	Output (Y)
 **Procedure**:
 
 8×3 Encoder:
+
 Open Logisim and create a new project.
+
 Place 8 input pins labeled D₀ through D₇.
+
 Place 3 output pins labeled A, B, and C.
+
 Connect inputs to OR gates according to the Boolean expressions.
+
 Wire OR gate outputs to the corresponding output pins.
+
 Simulate by setting one input HIGH at a time and verifying outputs.
 
 8×1 Multiplexer:
+
 Create a new circuit in the same project.
+
 Place 8 data input pins (I₀–I₇) and 3 select input pins (S₁, S₂, S₃).
+
 Add NOT gates to generate complements of select lines.
+
 Place 8 AND gates (4-input each) — one for each data input.
+
 Connect each AND gate to the appropriate data input and select line combination.
+
 Connect all AND gate outputs to a single OR gate.
+
 Wire the OR gate output to the output pin Y.
+
 Simulate by varying select lines and verifying output matches the selected input.
 
 **Circuit Diagrams**:
 
-![Half Adder](images/1c.png)
+*Encoder (8×3)*
 
-![Half Adder](images/1b.png)
+![Half Adder](images/2a.png)
 
-![Half Adder](images/1a.png)
+*Multiplexer (8×1)*
+
+![Half Adder](images/2b.png)
+
 
 **Observations and Result**:
 
