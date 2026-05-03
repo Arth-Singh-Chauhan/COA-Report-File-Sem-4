@@ -13,22 +13,27 @@ Logisim (A graphical tool for designing and simulating digital logic circuits)
 **Theory**:
 
 *Half Adder*
+
 A half adder is a combinational circuit that adds two single-bit binary numbers. It produces two outputs:
 • Sum (S): $$S = A \oplus B$$
 • Carry (C): $$C = A \cdot B$$
 
 *Full Adder*
+
 A full adder adds three single-bit binary numbers (two inputs and a carry-in). Outputs:
 • Sum: $$S = A \oplus B \oplus C{in}$$
 • Carry Out: $$C{out} = (A \cdot B) + (C{in} \cdot (A \oplus B))$$
 
 *4-Bit Binary Adder (Ripple Carry Adder)*
+
 A 4-bit adder chains four full adders, with the carry output of each stage connected to the carry input of the next. This allows addition of two 4-bit binary numbers, producing a 4-bit sum and a carry out.
 
 *Universal Gates*
+
 NAND and NOR gates are called universal gates because any logic function can be implemented using only NAND or only NOR gates. The adder circuits can be constructed entirely from these gates.
 
 *Exclusive Gates*
+
 XOR and XNOR gates are particularly efficient for arithmetic operations. XOR directly implements the sum function, making adder design more compact.
 
 **Procedure**:
