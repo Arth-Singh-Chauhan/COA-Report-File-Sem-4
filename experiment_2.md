@@ -113,7 +113,7 @@ Truth Table:
 
 - Simulate by varying select lines and verifying output matches the selected input.
 
-*Circuit Diagrams**:
+*Circuit Diagrams*:
 
 *Encoder (8×3)*
 
