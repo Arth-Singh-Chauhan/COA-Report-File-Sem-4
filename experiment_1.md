@@ -57,12 +57,7 @@ Verify correctness by comparing outputs with expected truth tables.
 
 **Circuit Diagrams**:
 
-| Circuit | Screenshot |
-|---------|------------|
-| Half Adder | (Insert screenshot) |
-| Full Adder | (Insert screenshot) |
-| 4-Bit Adder (Universal Gates) | (Insert screenshot) |
-| 4-Bit Adder (Exclusive Gates) | (Insert screenshot) |
+
 
 **Truth Tables**:
 
