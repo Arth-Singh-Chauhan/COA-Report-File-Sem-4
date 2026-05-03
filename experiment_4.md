@@ -1,16 +1,16 @@
-# Experiment Title: 
+**Experiment Title:**
 
 Analysis of Pointers, Memory Management, and Registers using GDB
 
-# Aim:
+**Aim**:
 
 To study and analyze Pointer behavior in C, Memory management (stack, heap, data segment) and CPU registers and execution flow using the GDB Debugger
 
-# Software Used:
+**Software Used:**
 
 C Programming Language, GCC Compiler (`gcc`), GDB Debugger and Visual Studio Code / Terminal
 
-# Theory:
+**Theory:**
 
 *Pointers in C*
 
@@ -54,7 +54,7 @@ GDB allows:
 * Memory analysis
 
 
-# Program Code:
+**Program Code:**
 
 *Part A*
 
@@ -107,7 +107,7 @@ int main() {
 ```
 
 
-# Procedure:
+**Procedure:**
 
 *Part A*
 
@@ -151,14 +151,36 @@ int main() {
   * `x` → Examine memory
 
 
-# Output & Debugging:
+**Output & Debugging:**
 
 *Part A*
 
+![Half Adder](images/4.1b.png)
+
+![Half Adder](images/4.1c.png)
+
+![Half Adder](images/4.1d.png)
+
+![Half Adder](images/4.1e.png)
+
+![Half Adder](images/4.1f.png)
+
+![Half Adder](images/4.1g.png)
+
 *Part B*
 
+![Half Adder](images/4.2a.png)
 
-# Observations:
+![Half Adder](images/4.2b.png)
+
+![Half Adder](images/4.2c.png)
+
+![Half Adder](images/4.2d.png)
+
+![Half Adder](images/4.2e.png)
+
+
+**Observations:**
 
 * Pointer stores address of variable
 * Dereferencing accesses actual value
@@ -170,7 +192,7 @@ int main() {
 * `EIP` shows current instruction
 
 
-# Result:
+**Result:**
 
 * Successfully demonstrated pointer operations
 * Observed memory allocation in stack, heap, and data segments
@@ -178,7 +200,7 @@ int main() {
 * Verified program execution step-by-step
 
 
-# Conclusion:
+**Conclusion:**
 
 This experiment provided a comprehensive understanding of pointers, memory organization, and CPU registers. Using GDB debugger, the internal working of program execution was analyzed effectively, helping in understanding how memory and registers interact during execution.
 
