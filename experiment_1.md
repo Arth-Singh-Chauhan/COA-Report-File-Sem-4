@@ -2,36 +2,36 @@
 
 Design and Implementation of Half Adder, Full Adder, and 4-Bit Binary Adders Using Universal Gates and Exclusive Gates in Logisim
 
-Aim:
+**Aim**:
 
 To design, simulate, and verify the operation of Half Adder, Full Adder, 4-Bit Binary Adder(Ripple Carry Adder) using Universal Gates(NAND/NOR) and Exclusive Gates(XOR/XNOR) in Logisim software.
 
-Software Used:
+**Software Used**:
 
 Logisim (A graphical tool for designing and simulating digital logic circuits)
 
-Theory:
+**Theory**:
 
-Half Adder
+*Half Adder*
 A half adder is a combinational circuit that adds two single-bit binary numbers. It produces two outputs:
 • Sum (S): $$S = A \oplus B$$
 • Carry (C): $$C = A \cdot B$$
 
-Full Adder
+*Full Adder*
 A full adder adds three single-bit binary numbers (two inputs and a carry-in). Outputs:
 • Sum: $$S = A \oplus B \oplus C{in}$$
 • Carry Out: $$C{out} = (A \cdot B) + (C{in} \cdot (A \oplus B))$$
 
-4-Bit Binary Adder (Ripple Carry Adder)
+*4-Bit Binary Adder (Ripple Carry Adder)*
 A 4-bit adder chains four full adders, with the carry output of each stage connected to the carry input of the next. This allows addition of two 4-bit binary numbers, producing a 4-bit sum and a carry out.
 
-Universal Gates
+*Universal Gates*
 NAND and NOR gates are called universal gates because any logic function can be implemented using only NAND or only NOR gates. The adder circuits can be constructed entirely from these gates.
 
-Exclusive Gates
+*Exclusive Gates*
 XOR and XNOR gates are particularly efficient for arithmetic operations. XOR directly implements the sum function, making adder design more compact.
 
-Procedure:
+**Procedure**:
 
 Launch Logisim and create a new project.
 Design the Half Adder:
@@ -55,7 +55,7 @@ Simulate each circuit:
    - Observe and record outputs.
 Verify correctness by comparing outputs with expected truth tables.
 
-Circuit Diagrams:
+**Circuit Diagrams**:
 
 | Circuit | Screenshot |
 |---------|------------|
@@ -64,9 +64,9 @@ Circuit Diagrams:
 | 4-Bit Adder (Universal Gates) | (Insert screenshot) |
 | 4-Bit Adder (Exclusive Gates) | (Insert screenshot) |
 
-Truth Tables:
+**Truth Tables**:
 
-Half Adder
+*Half Adder*
 | A | B | Sum | Carry |
 |---|---|-----|-------|
 | 0 | 0 |  0  |   0   |
@@ -74,7 +74,7 @@ Half Adder
 | 1 | 0 |  1  |   0   |
 | 1 | 1 |  0  |   1   |
 
-Full Adder
+*Full Adder*
 | A | B | Cin | Sum | Cout |
 |---|---|-----|-----|------|
 | 0 | 0 |  0  |  0  |   0  |
@@ -86,7 +86,7 @@ Full Adder
 | 1 | 1 |  0  |  0  |   1  |
 | 1 | 1 |  1  |  1  |   1  |
 
-Observations:
+**Observations**:
 
 • The half adder correctly computes the sum and carry for all input combinations.
 • The full adder produces accurate results for all 8 input combinations, including carry-in.
@@ -94,7 +94,7 @@ Observations:
 • Circuits built with universal gates require more gates but demonstrate functional equivalence.
 • Circuits using exclusive gates are more compact and efficient for arithmetic operations.
 
-Result:
+**Result**:
 
 All designed circuits—half adder, full adder, and both 4-bit binary adders—were successfully implemented and verified in Logisim. The simulation outputs matched the expected truth table values for all test cases.
 
