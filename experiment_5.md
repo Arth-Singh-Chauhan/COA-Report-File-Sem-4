@@ -229,32 +229,3 @@ int main(){
 **Conclusion:**
 
 This experiment provided a clear understanding of various addressing modes and their implementation in C programs. Using GDB debugger, the execution of instructions was analyzed at a low level, helping to understand how different addressing techniques are used by the processor during program execution.
-
-
-
-
-
-# 📘 Theory: Addressing Modes
-
----
-
-## 🔹 Introduction
-
-In computer architecture, **addressing modes** define how the operand of an instruction is specified or accessed. They determine how the CPU retrieves data required for executing an instruction. Different addressing modes provide flexibility, efficiency, and optimization in program execution.
-
----
-
-## 🔹 Importance of Addressing Modes
-
-Addressing modes are essential because they:
-
-* Provide multiple ways to access data
-* Improve instruction efficiency
-* Reduce memory access time
-* Support complex data structures like arrays and pointers
-
----
-
-## 🔹 Types of Addressing Modes
-
-
