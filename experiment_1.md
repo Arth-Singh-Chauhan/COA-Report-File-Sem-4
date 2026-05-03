@@ -57,11 +57,11 @@ Verify correctness by comparing outputs with expected truth tables.
 
 **Circuit Diagrams**:
 
-![Half Adder](images/1a.png)
+![Half Adder](images/1c.png)
 
 ![Half Adder](images/1b.png)
 
-![Half Adder](images/1c.png)
+![Half Adder](images/1a.png)
 
 
 **Truth Tables**:
