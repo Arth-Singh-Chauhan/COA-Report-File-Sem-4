@@ -55,15 +55,16 @@ where $$mi$$ is the minterm corresponding to the select combination.
 
 Truth Table:
 
-| S2 | S1 | S0 | Output (Y) |
-| 0	| 0	| 0	| I0 |
-| 0	| 0	| 1	| I1 |
-| 0	| 1	| 0	| I2 |
-| 0	| 1	| 1	| I3 |
-| 1 | 0	| 0	| I4 |
-| 1	| 0	| 1	| I5 |
-| 1	| 1	| 0	| I6 |
-| 1	| 1	| 1	| I7 |
+| S2 | S1 | S0 | Selected Input | Output (Y) |
+|----|----|----|----------------|------------|
+| 0  | 0  | 0  | I0             | I0         |
+| 0  | 0  | 1  | I1             | I1         |
+| 0  | 1  | 0  | I2             | I2         |
+| 0  | 1  | 1  | I3             | I3         |
+| 1  | 0  | 0  | I4             | I4         |
+| 1  | 0  | 1  | I5             | I5         |
+| 1  | 1  | 0  | I6             | I6         |
+| 1  | 1  | 1  | I7             | I7         |
 
 **Components Required**
 
