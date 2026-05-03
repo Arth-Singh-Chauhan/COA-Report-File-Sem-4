@@ -13,6 +13,7 @@ Logisim (A graphical tool for designing and simulating digital logic circuits)
 **Theory**:
 
 *Full Adder*
+
 A full adder adds three single-bit binary numbers (two inputs and a carry-in). Outputs:
 • Sum: $$S = A \oplus B \oplus C{in}$$
 • Carry Out: $$C{out} = (A \cdot B) + (C{in} \cdot (A \oplus B))$$
@@ -29,12 +30,15 @@ A full adder adds three single-bit binary numbers (two inputs and a carry-in). O
 | 1 | 1 |  1  |  1  |   1  |
 
 *4-Bit Binary Adder (Ripple Carry Adder)*
+
 A 4-bit adder chains four full adders, with the carry output of each stage connected to the carry input of the next. This allows addition of two 4-bit binary numbers, producing a 4-bit sum and a carry out.
 
 *Universal Gates*
+
 NAND and NOR gates are called universal gates because any logic function can be implemented using only NAND or only NOR gates. The adder circuits can be constructed entirely from these gates.
 
 *Exclusive Gates*
+
 XOR and XNOR gates are particularly efficient for arithmetic operations. XOR directly implements the sum function, making adder design more compact.
 
 **Components Used**:
@@ -64,11 +68,10 @@ XOR and XNOR gates are particularly efficient for arithmetic operations. XOR dir
 
 **Circuit Diagrams**:
 
-![Half Adder](images/1c.png)
+![Half Adder](images/3a.png)
 
-![Half Adder](images/1b.png)
+![Half Adder](images/3b.png)
 
-![Half Adder](images/1a.png)
 
 **Test Cases**:
 
@@ -83,19 +86,18 @@ XOR and XNOR gates are particularly efficient for arithmetic operations. XOR dir
 
 
 **Observations**:
-• The sum outputs (S0–S3) correctly reflected the binary addition of inputs A and B.
-• The carry propagates correctly through each full adder stage.
-• Waveform outputs (shown in screenshots) confirm expected timing and logic levels.
+
+- The sum outputs (S0–S3) correctly reflected the binary addition of inputs A and B.
+- The carry propagates correctly through each full adder stage.
+- Waveform outputs (shown in screenshots) confirm expected timing and logic levels.
 
 **Result**:
 
 The 4-bit binary adder was successfully designed and simulated in Logisim using XOR and universal gates. All test cases produced correct sum and carry outputs, verifying the functionality of the ripple carry adder.
 
 **Conclusion**:
-• The experiment demonstrated the design of a combinational circuit for binary addition.
-• XOR gates efficiently generate the sum, while AND/OR (or NAND/NOR) gates handle carry propagation.
-• Understanding gate-level implementation reinforces concepts of digital arithmetic and lays the foundation for ALU design.
 
+- The experiment demonstrated the design of a combinational circuit for binary addition.
+- XOR gates efficiently generate the sum, while AND/OR (or NAND/NOR) gates handle carry propagation.
+- Understanding gate-level implementation reinforces concepts of digital arithmetic and lays the foundation for ALU design.
 
-
-e this as README.md in your project folder alongside your Logisim .circ file and screenshots. Let me know if you'd like a version formatted for PDF export or want me to generate a NAND-only full adder schematic.
