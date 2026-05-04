@@ -134,3 +134,10 @@ Truth Table:
 **Conclusion**:
 
 The 8×3 encoder and 8×1 multiplexer were successfully designed and simulated using Logisim. The simulation outputs matched the expected values from the truth tables, confirming correct circuit design. This experiment reinforced understanding of combinational logic design, Boolean algebra implementation, and digital circuit simulation.
+
+
+
+**Author**:
+
+Arth Singh Chauhan
+(241210023)
