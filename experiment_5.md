@@ -229,3 +229,9 @@ int main(){
 **Conclusion:**
 
 This experiment provided a clear understanding of various addressing modes and their implementation in C programs. Using GDB debugger, the execution of instructions was analyzed at a low level, helping to understand how different addressing techniques are used by the processor during program execution.
+
+
+**Author**:
+
+Arth Singh Chauhan
+(241210023)
