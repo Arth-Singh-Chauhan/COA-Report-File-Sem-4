@@ -47,11 +47,6 @@ A multiplexer (MUX) is a combinational circuit that selects one of several input
 
 The select lines determine which input is routed to the output.
 
-Boolean Expression:
-
-$$Y = \sum{i=0}^{7} (Ii \cdot mi)$$
-
-where $$mi$$ is the minterm corresponding to the select combination.
 
 Truth Table:
 
