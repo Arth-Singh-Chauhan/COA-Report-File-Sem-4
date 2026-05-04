@@ -206,3 +206,8 @@ int main() {
 
 This experiment provided a comprehensive understanding of pointers, memory organization, and CPU registers. Using GDB debugger, the internal working of program execution was analyzed effectively, helping in understanding how memory and registers interact during execution.
 
+
+**Author**:
+
+Arth Singh Chauhan
+(241210023)
