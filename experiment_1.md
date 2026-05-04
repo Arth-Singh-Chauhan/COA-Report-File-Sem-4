@@ -109,3 +109,10 @@ All designed circuits—half adder, full adder, and both 4-bit binary adders—w
 
 **Conclusion**:
 This experiment demonstrated the design and working of fundamental adder circuits using both universal and exclusive gates in Logisim. The use of NAND/NOR gates proved that any combinational logic can be realized with universal gates, while XOR-based designs offered efficiency for arithmetic operations. Understanding these building blocks is essential for designing more complex arithmetic and logic units in computer architecture.
+
+
+
+**Author**:
+
+Arth Singh Chauhan
+(241210023)
