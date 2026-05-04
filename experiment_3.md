@@ -101,3 +101,8 @@ The 4-bit binary adder was successfully designed and simulated in Logisim using 
 - XOR gates efficiently generate the sum, while AND/OR (or NAND/NOR) gates handle carry propagation.
 - Understanding gate-level implementation reinforces concepts of digital arithmetic and lays the foundation for ALU design.
 
+
+**Author**:
+
+Arth Singh Chauhan
+(241210023)
